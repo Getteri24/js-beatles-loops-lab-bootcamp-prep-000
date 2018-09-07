@@ -16,3 +16,13 @@ function johnLennonFacts(facts) {
   }
   return newFacts;
 }
+
+function iLoveTheBeatles(number) {
+  let result = [];
+  do {
+    result.push("I love the Beatles!");
+    i++;
+  } while(number < 15);
+    return result;
+}
+
